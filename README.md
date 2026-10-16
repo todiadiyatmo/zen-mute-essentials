@@ -26,6 +26,15 @@ web-ext lint
 web-ext build   # outputs a .zip in web-ext-artifacts/
 ```
 
+### Sign locally
+
+Copy `.env.sample` to `.env`, fill in your [AMO API key](https://addons.mozilla.org/developers/addon/api/key/), then:
+
+```sh
+set -a; source .env; set +a
+web-ext sign --channel=unlisted   # signed .xpi lands in web-ext-artifacts/
+```
+
 ## License
 
 [MIT](LICENSE)

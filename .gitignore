@@ -1,2 +1,4 @@
 web-ext-artifacts/
 .DS_Store
+.env
+.amo-upload-uuid
