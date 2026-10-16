@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "Zen Mute Toggle",
+  "version": "1.0.0",
+  "description": "Mute / unmute semua tab pinned (Essential) dengan satu tombol.",
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "action": {
+    "default_title": "Mute / unmute tab Essential",
+    "default_icon": "icon.svg",
+    "default_area": "navbar"
+  },
+  "icons": {
+    "48": "icon.svg",
+    "96": "icon.svg"
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "zen-mute-toggle@local",
+      "strict_min_version": "115.0"
+    }
+  }
+}
