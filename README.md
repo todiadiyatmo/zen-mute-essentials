@@ -10,3 +10,7 @@ Extension untuk [Zen Browser](https://zen-browser.app) (Firefox) yang mute / unm
 1. Buka `about:debugging#/runtime/this-firefox`.
 2. **Load Temporary Add-on…** → pilih `manifest.json`.
 3. Buka panel Extensions, klik kanan ikon speaker → **Pin to Toolbar**, lalu atur posisinya lewat **Customize Toolbar…**.
+
+## License
+
+[MIT](LICENSE)
